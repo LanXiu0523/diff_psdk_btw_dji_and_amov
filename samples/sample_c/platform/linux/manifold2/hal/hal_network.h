@@ -40,7 +40,7 @@ extern "C" {
  * NIC name micro define as #define 'LINUX_NETWORK_DEV   "your NIC name"'.
  */
 #ifdef PLATFORM_ARCH_x86_64
-#define LINUX_NETWORK_DEV           "enxf8e43b7bbc2c"
+#define LINUX_NETWORK_DEV           "enx207bd2724505"
 #else
 #define LINUX_NETWORK_DEV           "l4tbr0"
 #endif
@@ -49,7 +49,7 @@ extern "C" {
  */
 
 #ifdef PLATFORM_ARCH_x86_64
-#define USB_NET_ADAPTER_VID                   (0x0B95)
+#define USB_NET_ADAPTER_VID                   (0x0b95)
 #define USB_NET_ADAPTER_PID                   (0x1790)
 #else
 #define USB_NET_ADAPTER_VID                   (0x0955)
